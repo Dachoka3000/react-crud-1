@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "name": "daisy",
+      "course": "maths",
+      "image": "https://images.pexels.com/photos/17025108/pexels-photo-17025108/free-photo-of-woman-wearing-white-pants-sitting-on-windowsill.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "reading",
+      "id": 1
+    },
+    {
+      "name": "machoka",
+      "course": "english",
+      "image": "https://images.pexels.com/photos/1035675/pexels-photo-1035675.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "swimming",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "course": "CRE",
+      "image": "https://images.pexels.com/photos/8021289/pexels-photo-8021289.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "cooking",
+      "id": 3
+    },
+    {
+      "name": "john doe",
+      "course": "physics",
+      "image": "https://images.pexels.com/photos/16154958/pexels-photo-16154958/free-photo-of-elderly-man-in-sweater-sitting-on-bench-by-beach.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "football",
+      "id": 4
+    },
+    {
+      "name": "cat",
+      "course": "homescience",
+      "image": "https://images.pexels.com/photos/16643017/pexels-photo-16643017/free-photo-of-cat-shaving-on-tree.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "jumping",
+      "id": 5
+    },
+    {
+      "name": "pritty",
+      "course": "art",
+      "image": "https://images.pexels.com/photos/8912074/pexels-photo-8912074.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "dancing",
+      "id": 6
+    }
+  ]
+}
