@@ -1,13 +1,6 @@
 {
   "students": [
     {
-      "name": "peter",
-      "course": "PHYSICS",
-      "image": "https://images.pexels.com/photos/8021289/pexels-photo-8021289.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "hobby": "cooking",
-      "id": 3
-    },
-    {
       "name": "john doe",
       "course": "physics",
       "image": "https://images.pexels.com/photos/16154958/pexels-photo-16154958/free-photo-of-elderly-man-in-sweater-sitting-on-bench-by-beach.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
@@ -20,6 +13,20 @@
       "image": "https://images.pexels.com/photos/16643017/pexels-photo-16643017/free-photo-of-cat-shaving-on-tree.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "hobby": "jumping",
       "id": 5
+    },
+    {
+      "name": "jelly bean",
+      "course": "chemistry",
+      "image": "https://images.pexels.com/photos/17364174/pexels-photo-17364174/free-photo-of-wood-light-nature-love.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "cooking",
+      "id": 6
+    },
+    {
+      "name": "charles",
+      "course": "physics",
+      "image": "https://images.pexels.com/photos/15936673/pexels-photo-15936673/free-photo-of-beautiful-young-woman-sitting-on-the-grass-with-a-mirror.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "hobby": "sewing",
+      "id": 7
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Post(){
+function Post({getStudents}){
   const [name, setName]=useState("")
   const [course, setCourse]=useState("")
   const [image, setImage]=useState("")
@@ -35,11 +35,16 @@ function Post(){
       body:JSON.stringify(student)
     })
     .then(response=> response.json())
-    .then(data=>console.log(data))
+    .then(data=>{
+      console.log(data)
+      getStudents()
+    })
     .catch(error=>console.log(error))
+
+    event.target.reset()
   }
     return <div>
-
+      <h1>The Post Form</h1>
     <form onSubmit={postStudent}>
         <input type='text' placeholder='name' onChange={changeName}/>
         <input type='text' placeholder='course' onChange={(event)=>{

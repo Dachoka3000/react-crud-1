@@ -39,6 +39,7 @@ function Update({updateFunction, student}){
   }
 
     return <div>
+        <h3>The Update Form</h3>
     <form onSubmit={handleSubmit}>
         <input type='text' placeholder='name' onChange={changeName} value={name} required/>
         <input type='text' placeholder='course' onChange={changeCourse} value={course} required/>

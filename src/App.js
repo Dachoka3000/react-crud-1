@@ -35,7 +35,11 @@ function App() {
         body:JSON.stringify(object)
       })
       .then(response=>response.json())
-      .then(data=>console.log(data))
+      .then(data=>{
+        console.log(data)
+        alert("Student was updated")
+        getStudents()
+      })
       .catch(error=>console.log(error))
   }
 
@@ -54,8 +58,10 @@ function App() {
 
   return (
     <div className="App">
+      <h2>Students App</h2>
+      <p>This website contains details of students. </p>
       <Students myStudents={students} updateFunction={updateStudent} deleteFunction={deleteStudent}/>
-      <Post/>
+      <Post getStudents={getStudents}/>
     </div>
   );
 }
